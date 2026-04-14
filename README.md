@@ -18,7 +18,10 @@ A step-by-step user guide explaining how to configure automatic security scans, 
 ## Skills Demonstrated
 
 - Technical documentation
+- User documentation
+- Product documentation
+- Troubleshooting guides
+- Information structuring
+- Cross-functional collaboration
 - User guides and system explanations
 - Structured content design
-- Troubleshooting documentation
-- Cross-functional collaboration
