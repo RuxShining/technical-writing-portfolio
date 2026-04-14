@@ -1,24 +1,30 @@
+# Technical Writing Portfolio
+
+This repository contains writing samples focused on product documentation, system behavior, and user guidance. The goal is to demonstrate clear, structured communication of complex technical concepts.
+
+---
+
 ## About Me
 
-I’m a technical writer with a background in both product documentation and content, which means I don’t just focus on how things are written, but on how they’re understood and used.
+I’m a technical writer with a background in product documentation and content. I focus on turning complex or technical systems into clear, usable documentation that helps users understand what to do and why it matters.
 
-In my work, I’ve collaborated closely with engineering, product, and cross-functional teams to document features, explain system behavior, and support release communication. I’m used to working with incomplete or evolving information, asking the right questions, and structuring content so it’s actually useful for the end user.
+I’m comfortable working with evolving requirements, collaborating with engineering and product teams, and structuring information in a way that supports both end users and internal stakeholders.
 
-I’m particularly interested in documentation that is part of the product experience — not just something that exists alongside it. That includes improving clarity, reducing friction, and helping users move forward when something doesn’t work as expected.
+---
 
-## Focus Areas
-- Product and user documentation  
-- Feature explanations and release communication  
-- Troubleshooting and user guidance  
-- Structuring complex information  
-
-## Tools
-DITA/XML, Confluence, Jira, FrameMaker, oXygen Editor
-
-## Samples
+## Writing Samples
 
 ### 1. Scheduled Security Scans Guide
+A step-by-step user guide explaining how to configure automatic security scans, including setup, configuration options, troubleshooting, and best practices.
 
-A step-by-step user guide covering setup, configuration, troubleshooting, and best practices for automated security scans.
+👉 [See the full document](./scheduled-scans-guide.md)
 
-➡️ [Read the full guide](./scheduled-scans-guide.md)
+---
+
+## Skills Demonstrated
+
+- Technical documentation
+- User guides and system explanations
+- Structured content design
+- Troubleshooting documentation
+- Cross-functional collaboration
