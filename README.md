@@ -14,3 +14,11 @@ I’m particularly interested in documentation that is part of the product exper
 
 ## Tools
 DITA/XML, Confluence, Jira, FrameMaker, oXygen Editor
+
+## Samples
+
+### 1. Scheduled Security Scans Guide
+
+A step-by-step user guide covering setup, configuration, troubleshooting, and best practices for automated security scans.
+
+➡️ [Read the full guide](./scheduled-scans-guide.md)
