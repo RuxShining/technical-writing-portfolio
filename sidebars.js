@@ -1,28 +1,40 @@
-/**
- * This is your sidebar configuration.
- * You can mix and match automatically generated and custom sections.
- */
-
 module.exports = {
   tutorialSidebar: [
     {
       type: 'category',
-      label: 'Tutorial - Basics',
+      label: 'API Documentation',
       items: [
-        'intro',
-        'installation',
-        // dacă vrei să readuci paginile default:
-        'tutorial-basics/create-a-page',
-        'tutorial-basics/create-a-document',
-        'tutorial-basics/deploy-your-site',
+        'api-docs/claude-api',
+        'api-docs/payment-gateway',
       ],
     },
     {
       type: 'category',
-      label: 'Tutorial - Extras',
+      label: 'Process Documentation',
       items: [
-        'tutorial-extras/manage-docs-versions',
-        'tutorial-extras/translate-your-site',
+        'process-docs/release-workflow',
+        'process-docs/documentation-governance',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Release Notes',
+      items: [
+        'release-notes/enterprise-platform-4-8',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'UX Writing',
+      items: [
+        'ux-writing/flux-writing-system',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'About',
+      items: [
+        'about/about-me',
       ],
     },
   ],
