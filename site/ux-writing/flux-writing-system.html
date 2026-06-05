@@ -1,0 +1,304 @@
+# FLUX UX Writing System
+
+## Product Overview
+
+FLUX is a training and recovery platform designed for hybrid athletes who combine strength and endurance training.
+
+The platform helps athletes monitor:
+
+- Training load
+- Nutrition
+- Recovery metrics
+- HRV trends
+- Performance readiness
+
+The UX writing system supports technically literate users while avoiding overly motivational, vague, or wellness-focused language.
+
+---
+
+## Voice Principles
+
+### Direct
+
+Users are performance-focused and expect clear feedback.
+
+Use:
+
+> Recovery score dropped 12% from baseline.
+
+Avoid:
+
+> Your body might need a little extra rest today.
+
+### Technically Literate
+
+Use terminology familiar to athletes.
+
+Examples:
+
+- Zone 2
+- HRV
+- Training load
+- Deload week
+
+Avoid unnecessary scientific jargon without context.
+
+### Low Ego
+
+The platform provides guidance, not coaching decisions.
+
+Use:
+
+> Based on your recent load, recovery may be limited today.
+
+Avoid:
+
+> FLUX recommends complete rest today.
+
+---
+
+# Onboarding Flow
+
+## Welcome Screen
+
+### Headline
+
+Built for athletes who train both strength and endurance.
+
+### Body
+
+FLUX tracks recovery, training load, and nutrition across hybrid training styles because most fitness apps are built for only one.
+
+### Primary Action
+
+Get Started
+
+---
+
+## Training Profile
+
+### Headline
+
+What does your training currently include?
+
+### Options
+
+- Strength Training
+- Running
+- Cycling
+- Swimming
+- CrossFit / Functional Fitness
+- Hyrox / OCR
+- Triathlon
+- Other
+
+### Supporting Text
+
+Your selections help calibrate energy expenditure and recovery targets.
+
+---
+
+## Weekly Training Load
+
+### Headline
+
+How many hours do you train each week?
+
+### Supporting Text
+
+Include lifting, cardio, conditioning, and recovery sessions.
+
+### Helper Text
+
+Targets automatically adjust as your training load changes.
+
+---
+
+## Goal Selection
+
+### Performance
+
+Improve output, speed, or strength.
+
+### Body Composition
+
+Adjust weight while maintaining performance.
+
+### Recovery
+
+Reduce fatigue and improve adaptation.
+
+### Maintenance
+
+Maintain your current fitness level.
+
+---
+
+# Empty States
+
+## No Training Sessions
+
+### Message
+
+No training sessions yet.
+
+### Description
+
+Add your first session to begin tracking training load and recovery trends.
+
+### Action
+
+Log Session
+
+---
+
+## No Nutrition Data
+
+### Message
+
+No nutrition data today.
+
+### Description
+
+Log meals to compare intake against recovery and workload.
+
+### Action
+
+Track Meal
+
+---
+
+## No Recovery Data
+
+### Message
+
+Recovery data unavailable.
+
+### Description
+
+Connect a compatible wearable to enable readiness scoring.
+
+### Action
+
+Connect Device
+
+---
+
+# Error Messages
+
+## Wearable Sync Failure
+
+Couldn't sync wearable data. Try again.
+
+## Session Overlap
+
+This session overlaps with an existing entry.
+
+## Offline State
+
+No connection. Changes will sync automatically.
+
+## Invalid Weight
+
+Enter a value between 20 and 500.
+
+## Unsaved Session
+
+Session wasn't saved. Your data is still available locally.
+
+---
+
+# Push Notifications
+
+## Recovery Alert
+
+### Title
+
+Recovery score below baseline
+
+### Body
+
+HRV is down 14% from your 7-day average. Consider reducing intensity today.
+
+---
+
+## Weekly Summary
+
+### Title
+
+Week 18 summary
+
+### Body
+
+5 sessions • 7h 42m • 18,200 kg total volume
+
+---
+
+## Nutrition Reminder
+
+### Title
+
+Protein target incomplete
+
+### Body
+
+You've logged 82g today. Current target: 145g.
+
+---
+
+# Confirmation Dialogs
+
+## Delete Session
+
+### Title
+
+Delete this session?
+
+### Body
+
+This removes the workout and associated load calculations from your history.
+
+### Action
+
+Delete Session
+
+---
+
+## Reset Targets
+
+### Title
+
+Reset nutrition targets?
+
+### Body
+
+Custom values will be replaced with calculated targets based on your current profile.
+
+### Action
+
+Reset Targets
+
+---
+
+# Accessibility Standards
+
+The UX writing system follows these accessibility principles:
+
+- Error messages never rely on color alone
+- Navigation labels always contain text
+- Tooltips support screen readers
+- Avoid directional instructions
+- Use concise labels for wearable and recovery data
+
+---
+
+# Design Intent
+
+The system intentionally avoids:
+
+- Empty motivational language
+- Artificial encouragement
+- Excessively casual tone
+- Overexplaining technical concepts
+
+The goal is to create a product experience that feels credible to experienced athletes while remaining accessible to newer users.

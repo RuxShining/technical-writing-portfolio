@@ -1,17 +1,25 @@
-# Welcome to MkDocs
+# Smart Coffee Machine API
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the Smart Coffee Machine API documentation.
 
-## Commands
+Use this API to control your coffee machine remotely, schedule brews, 
+and monitor device status from any application.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## What you can do
 
-## Project layout
+- **Check device status** – water level, bean level, machine state
+- **Start a brew cycle** — configure strength and cup count remotely
+- **Schedule brews** — set up automated brewing schedules
+- **Manage settings** — update device configuration via API
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Getting started
+
+New to the API? Start here:
+
+1. [Getting Started](getting-started.md) — connect your device and make your first API call
+2. [Configuration](configuration.md) — set up authentication and environment
+3. [API Reference](api-reference.md) — full endpoint documentation
+
+## Support
+
+Having issues? Check the [Troubleshooting](troubleshooting.md) guide.

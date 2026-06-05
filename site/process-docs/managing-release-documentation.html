@@ -1,0 +1,214 @@
+# Managing Release Documentation Across Multiple Product Teams
+
+## Overview
+
+Large software platforms often rely on multiple engineering teams delivering features on different schedules.
+
+Without a structured documentation process, release information may arrive late, contain conflicting details, or miss important dependencies required for customer communication.
+
+This guide describes a workflow used to coordinate release documentation across multiple product teams while maintaining publication quality and release schedule alignment.
+
+---
+
+## Common Documentation Challenges
+
+Documentation delays typically occur when:
+
+- Engineering updates arrive after documentation review has started
+- Feature scope changes during the release cycle
+- Multiple teams describe the same capability differently
+- Technical dependencies are identified late
+- Documentation ownership is unclear
+
+These issues frequently lead to incomplete release notes, review bottlenecks, and publication delays.
+
+---
+
+## Workflow Objectives
+
+The workflow aims to:
+
+- Align documentation activities with release milestones
+- Reduce manual follow-up effort
+- Surface blockers earlier
+- Improve consistency across components
+- Create predictable review cycles
+
+---
+
+# Documentation Lifecycle
+
+## 1. Feature Intake
+
+Documentation planning begins at the start of the release cycle.
+
+### Inputs
+
+Product teams provide:
+
+- Planned feature summaries
+- Business impact descriptions
+- Expected delivery timelines
+
+Engineering teams provide:
+
+- Technical dependencies
+- Configuration requirements
+- API changes
+- Deployment considerations
+
+QA teams provide:
+
+- Validation status
+- Known limitations
+- Risk areas requiring communication
+
+### Classification
+
+Each item is categorized as one of the following:
+
+- New Feature
+- Improvement
+- Bug Fix
+- Known Limitation
+- Internal Change
+
+---
+
+## 2. Documentation Ownership
+
+Every release item receives explicit ownership.
+
+### Required Assignments
+
+- Documentation owner
+- Technical reviewer
+- Product reviewer
+- Delivery deadline
+
+Clear ownership prevents situations where release information remains incomplete because responsibility is unclear.
+
+---
+
+## 3. Dependency Tracking
+
+Documentation blockers are tracked separately from development blockers.
+
+### Examples
+
+| Blocker Type | Example |
+|--------------|----------|
+| Missing technical details | API behavior not finalized |
+| Pending UI changes | Screenshots unavailable |
+| QA validation pending | Fix not confirmed |
+| Scope ambiguity | Multiple teams describe feature differently |
+| Deployment dependency | Rollout sequence not finalized |
+
+Tracking documentation-specific blockers improves visibility and reduces publication risk.
+
+---
+
+## 4. Review Coordination
+
+Review cycles are intentionally focused and time-boxed.
+
+Instead of requesting broad reviews from multiple stakeholders simultaneously:
+
+- Questions are assigned directly to owners
+- Technical conflicts are isolated early
+- Teams review only relevant sections
+- Approval deadlines are clearly communicated
+
+This approach reduces unnecessary review delays and accelerates publication readiness.
+
+---
+
+# Release Notes Standards
+
+Release documentation prioritizes operational clarity over marketing language.
+
+Each published item should answer:
+
+1. What changed?
+2. Why does it matter?
+3. What operational impact exists?
+4. Are configuration changes required?
+5. Are limitations or risks known?
+
+---
+
+## Example Release Entry
+
+### Runtime Validation Improvements
+
+Installer validation now detects missing runtime dependencies before deployment begins.
+
+#### Impact
+
+- Reduces failed installations
+- Improves rollback reliability
+- Prevents partial environment configuration
+
+#### Operational Note
+
+Servers running unsupported runtime versions must be upgraded before installation.
+
+---
+
+# Publication Readiness Checklist
+
+Before publication:
+
+- Terminology is validated across teams
+- Duplicate entries are consolidated
+- Internal-only information is removed
+- Known limitations are verified
+- Screenshots are approved
+- Links are validated
+- Cross-references are confirmed
+
+All checklist items must be completed before final publication approval.
+
+---
+
+# Recommended Practices
+
+## Maintain Clear Ownership
+
+Every release item should have a single documentation owner responsible for completion.
+
+---
+
+## Surface Blockers Early
+
+Dependencies discovered shortly before release create unnecessary publication risk.
+
+Document blockers as soon as they are identified.
+
+---
+
+## Prioritize Clarity
+
+Release documentation should explain operational impact clearly and directly.
+
+Avoid promotional or marketing-focused language.
+
+---
+
+## Separate Internal and External Information
+
+Engineering implementation details should remain internal unless they directly affect customers or administrators.
+
+---
+
+# Results
+
+Organizations implementing this workflow reported improvements in:
+
+- Documentation predictability
+- Review cycle efficiency
+- Cross-team coordination
+- Release note consistency
+- Dependency visibility
+
+The process also reduced last-minute documentation changes and publication delays during large coordinated releases.
