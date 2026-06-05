@@ -1,0 +1,21 @@
+site_name: Smart Coffee Machine API
+site_description: Documentation for the Smart Coffee Machine API
+theme:
+  name: material
+  palette:
+    primary: brown
+    accent: orange
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.highlight
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Configuration: configuration.md
+  - API Reference: api-reference.md
+  - Troubleshooting: troubleshooting.md
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
