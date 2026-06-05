@@ -74,3 +74,28 @@ Content-Type: application/json
 
 !!! note
     Maximum 4 cups per brew cycle.
+
+    ---
+
+### DELETE /brew/{brew_id}
+
+Cancels an active brew cycle.
+
+**Request**
+
+```http
+DELETE /brew/abc123
+Authorization: Bearer YOUR_API_KEY
+```
+
+**Response**
+
+```json
+{
+  "brew_id": "abc123",
+  "status": "cancelled"
+}
+```
+
+!!! warning
+    You can only cancel a brew that is currently in progress. Completed brews cannot be cancelled.
