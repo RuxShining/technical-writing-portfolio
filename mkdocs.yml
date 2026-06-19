@@ -1,5 +1,5 @@
-site_name: Smart Coffee Machine API
-site_description: Documentation for the Smart Coffee Machine API
+site_name: Ruxandra Technical Writing Portfolio
+site_description: Technical Writing Samples and Documentation Portfolio
 theme:
   name: material
   palette:
@@ -10,11 +10,22 @@ theme:
     - navigation.sections
     - search.highlight
 nav:
-  - Home: index.md
-  - Getting Started: getting-started.md
-  - Configuration: configuration.md
-  - API Reference: api-reference.md
-  - Troubleshooting: troubleshooting.md
+  - About:
+      - About Me: about/about-me.md
+
+  - API Documentation:
+      - Claude API: api-docs/claude-api.html
+      - Payment Gateway: api-docs/payment-gateway.html
+
+  - Process Documentation:
+      - Release Workflow: process-docs/release-workflow.html
+      - Managing Release Documentation: process-docs/managing-release-documentation.html
+
+  - Release Notes:
+      - Enterprise Platform 4.8: release-notes/enterprise-platform-4-8.html
+
+  - User Guides:
+      - FitPro Smartwatch: user-guides/FitPro-smartwatch.html
 markdown_extensions:
   - admonition
   - pymdownx.details
