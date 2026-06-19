@@ -42,6 +42,21 @@
 | `LOW_BEANS` | Bean hopper empty | Refill bean hopper |
 | `DOOR_OPEN` | Lid not closed | Close the machine lid |
 
+## FAQ
+
+**Can I brew while the machine is updating firmware?**
+
+No. Firmware updates pause all brewing functions until complete.
+
+**Does the API work without internet connection?**
+
+No. The Smart Coffee Machine requires an active Wi-Fi connection 
+to process API requests, since commands are routed through the cloud.
+
+**How often should I clean the machine?**
+
+We recommend a descaling cycle every 4-6 weeks, depending on water hardness.
+
 ## Getting Help
 
 If the issue persists, contact support:
