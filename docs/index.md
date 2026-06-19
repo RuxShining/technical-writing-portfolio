@@ -1,25 +1,13 @@
-# Smart Coffee Machine API
+# Technical Writing Portfolio
 
-Welcome to the Smart Coffee Machine API documentation.
+Welcome to my technical writing portfolio.
 
-Use this API to control your coffee machine remotely, schedule brews, 
-and monitor device status from any application.
+This portfolio contains examples of:
 
-## What you can do
+- API documentation
+- User guides
+- Release notes
+- Process documentation
+- UX writing
 
-- **Check device status** – water level, bean level, machine state
-- **Start a brew cycle** — configure strength and cup count remotely
-- **Schedule brews** — set up automated brewing schedules
-- **Manage settings** — update device configuration via API
-
-## Getting started
-
-New to the API? Start here:
-
-1. [Getting Started](getting-started.md) — connect your device and make your first API call
-2. [Configuration](configuration.md) — set up authentication and environment
-3. [API Reference](api-reference.md) — full endpoint documentation
-
-## Support
-
-Having issues? Check the [Troubleshooting](troubleshooting.md) guide.
+Use the navigation menu to browse the available documentation samples.
