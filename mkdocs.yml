@@ -14,18 +14,18 @@ nav:
       - About Me: about/about-me.md
 
   - API Documentation:
-      - Claude API: api-docs/claude-api.html
-      - Payment Gateway: api-docs/payment-gateway.html
+      - Claude API: api-docs/claude-api.md
+      - Payment Gateway: api-docs/payment-gateway.md
 
   - Process Documentation:
-      - Release Workflow: process-docs/release-workflow.html
-      - Managing Release Documentation: process-docs/managing-release-documentation.html
+      - Release Workflow: process-docs/release-workflow.md
+      - Managing Release Documentation: process-docs/managing-release-documentation.md
 
   - Release Notes:
-      - Enterprise Platform 4.8: release-notes/enterprise-platform-4-8.html
+      - Enterprise Platform 4.8: release-notes/enterprise-platform-4-8.md
 
   - User Guides:
-      - FitPro Smartwatch: user-guides/FitPro-smartwatch.html
+      - FitPro Smartwatch: user-guides/FitPro-smartwatch.md
 markdown_extensions:
   - admonition
   - pymdownx.details
